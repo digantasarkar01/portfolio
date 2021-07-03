@@ -1,3 +1,12 @@
-p{
-    color: red;
+.container{
+    height: 100vh;
+    width: 1140px;
+    background-color: red;
+}
+
+.left-box{
+    width: 50%;
+}
+.right-box{
+    width: 50%;
 }

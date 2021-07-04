@@ -1,32 +1,117 @@
+.body{
+    background-color: rgb(19, 12, 12);
+
+}
+h1{
+    font-size: 50px;
+    font-weight: 800;
+    font-style: normal;
+    text-align: left;
+    text-transform: capitalize;
+    color: white;
+}
+h5{
+    font-size: 20px;
+    font-weight: 700;
+    font-style: normal;
+    text-align: left;
+    text-transform: uppercase;
+    color: white;
+}
+p{
+    font-size: 18px;
+    font-weight: 400;
+    font-style: normal;
+    text-align: left;
+    text-transform: unset;
+    color: white;
+}
 .container{
-    height: 500px;
     width: 1140px;
-    background-color: rgb(22, 16, 16);
     margin: 0 auto;
-}
+    height: auto;
 
-.left-box{
-    width: 40%;
-    height: 200px;
-    background-color: red;
-    padding: 10px;
-    margin: 25px;
+}
+.container-fluid{
+    width: 100%;
+}
+.intro{
+    width: 100%;
+    padding: 50px 0;
+    height: auto;
+    display: flex;
+}
+.intro-left{
+    width: 60%;
+    height: 400px;
     float: left;
-    
-
-
+    padding-right: 5%;   
 }
-.left-box img{
-    width: 200px;
-    height: 150px;
-    
+.intro-left .hire-btn{
+    padding: 8px 25px;
+    color: white;
+    background-color: orange;
+    font-size: 14px;
+    font-weight: 900;
+    text-transform: uppercase;
+    text-decoration: none;
+    border-radius: 0 10px 0 10px;
 }
-.right-box{
-    width: 40%;
-    height: 200px;    
+.intro-left .hire-btn:hover{
+    padding: 12px 20px;
+    color: orange;
     background-color: white;
-    padding: 10px;
-    margin: 25px;    
-    float: left;
+    font-size: 14px;
+    font-weight: 900;
+    text-transform: uppercase;
+    text-decoration: none;
+    border-radius: 0 10px 0 10px;
+}
+.intro-right{
+    width: 40%;
+    height: 400px;
+    float: right;
+}
 
+.intro-right img{
+    width: 300px;
+    height: 300px;
+}
+.service-section{
+    padding: 50px 0;
+}
+.service-intro{
+
+}
+.service-intro h1{
+    text-align: center;
+}
+.services{
+    display: inline-flex;
+}
+.service-item{
+    width: 30%;
+    margin: 15px;
+    padding: 20px;
+    border: 2px solid orange;
+    box-shadow: 10px 10px red;
+    border-radius: 10px;
+}
+.service-item:hover{
+  
+    background-color: orange;
+    bor
+
+}
+.service-item img{
+    width: 50px;
+    height: 50px;
+}
+.service-item .btn{
+    font-size: 14px;
+    color: white;
+    font-weight: 800;
+    text-align: left;
+    text-decoration: none;
+    text-transform: uppercase;
 }
